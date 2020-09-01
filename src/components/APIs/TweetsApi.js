@@ -11,7 +11,7 @@ class TweetsApi extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://newsapi.org/v2/everything?q=bitcoin&sortBy=publishedAt&apiKey=6107f6de55684cbab80484c839fbee1e')
+        fetch('https://newsapi.org/v2/everything?q=bitcoin&sortBy=publishedAt&apiKey=6107f6de55684cbab80484c839fbee1e')
         .then((response) => {
             return response.json();
         })
